@@ -1,4 +1,3 @@
-```markdown
 # Book Recommendation System 📚
 
 Welcome to the **Book Recommendation System**! This project leverages data science and machine learning techniques to recommend books to users based on their preferences and activity. It provides an intuitive and interactive way to discover books you'll love.
