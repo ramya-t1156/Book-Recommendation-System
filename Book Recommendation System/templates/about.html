@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Book Recommender</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            background: linear-gradient(135deg, #1f4037, #99f2c8);
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            background-color: #0b3d91;
+            padding: 15px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-brand {
+            color: white !important;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important;
+            margin-left: 15px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffdf00 !important;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #0b3d91;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        /* About Section */
+        .about-section {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+            margin-bottom: 50px;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .about-section h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            color: rgba(255, 255, 255, 0.8);
+            letter-spacing: 1px;
+        }
+
+        .about-section strong {
+            font-size: 1.3rem;
+            color: #ffdf00;
+        }
+
+        .about-section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .about-section ul li {
+            font-size: 1.1rem;
+            font-weight: 400;
+            margin: 15px 0;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .about-section ul li::before {
+            content: "✔️";
+            margin-right: 10px;
+            color: #ffdf00;
+        }
+
+        /* Footer */
+        footer {
+            background: #0b3d91;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="/">Book Recommender</a>
+        <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/recommend">Recommend</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>Book Recommender</h1>
+        <p>Your go-to platform for personalized book suggestions!</p>
+    </div>
+
+    <!-- About Section -->
+    <div class="about-section">
+        <h1>About Book Recommender</h1>
+        <p>
+            Book Recommender is a platform designed to help book lovers discover new books based on user reviews and ratings. Whether you're looking for your next read, or want to explore the latest trending titles, we’ve got you covered.
+        </p>
+        <p>
+            Our goal is to provide personalized book recommendations tailored to your interests. Using a combination of book data, user preferences, and ratings, we bring you the best suggestions for your next adventure in reading.
+        </p>
+        <p>
+            <strong>How It Works:</strong><br>
+            1. Browse through our curated book collection.<br>
+            2. View detailed information about each book, including ratings and votes.<br>
+            3. Get book suggestions based on your interests and reading habits.
+        </p>
+        <p>
+            Join us today and explore a world of books at your fingertips!
+        </p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Book Recommender | Built with ❤️
+    </footer>
+
+</body>
+</html>
